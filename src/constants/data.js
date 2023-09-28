@@ -3,58 +3,53 @@ import images from './images';
 // Signature Feasts
 const wines = [ 
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Create Your Own Ultimate Feast',
+    price: '$40.99',
+    tags: 'cal | 960 - 2080',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Surf & Turf Walt Favorite Shrimp & 6 Oz. Filet Mignon',
+    price: '$34.48',
+    tags: 'cal | 550',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Grilled Lobster, Shrimp And Salmon',
+    price: '$36.99',
+    tags: 'cal | 930',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Surf & Turf Maine Lobster Tail & 10 Oz. NY Strip',
+    price: '$42.98',
+    tags: 'cal | 1030',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Admiral Feast',
+    price: '$25.49',
+    tags: 'cal | 1680',
   },
 ];
 
 // Desserts
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'New! Strawberry Vanilla Bean Cheesecake',
+    price: '$9.99',
+    tags: 'cal | 760',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Brownie Overboard',
+    price: '$8.99',
+    tags: 'cal | 1020',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Chocolate Wave',
+    price: '$8.49',
+    tags: 'cal | 1110',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Vanilla Bean Cheesecake',
+    price: '$7.99',
+    tags: 'cal | 690',
   },
 ];
 

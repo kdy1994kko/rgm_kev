@@ -15,7 +15,7 @@ const Navbar = () => {
         <li className="p__opensans"><a href="https://www.biblegateway.com/passage/?search=1+john+4%3A16&version=NIV" target="_blank" rel="noreferrer">"God Is Love"</a></li>
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#menu">Menu</a></li>
+        <li className="p__opensans"><a href="#menu">Specials</a></li>
         <li className="p__opensans"><a href="#awards">Awards</a></li>
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
@@ -33,7 +33,7 @@ const Navbar = () => {
               <li><a href="https://www.biblegateway.com/passage/?search=1+john+4%3A16&version=NIV" target="_blank" rel="noreferrer" onClick={() => setToggleMenu(false)}>"God Is Love"</a></li>
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
               <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-              <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
+              <li><a href="#menu" onClick={() => setToggleMenu(false)}>Specials</a></li>
               <li><a href="#awards" onClick={() => setToggleMenu(false)}>Awards</a></li>
               <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
             </ul>
