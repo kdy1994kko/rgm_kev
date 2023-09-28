@@ -55,7 +55,13 @@
     opacity: 0;
     transition: .5s ease;
     cursor: pointer;
-}
+} 
+
+/*
+.gallery__image-icon {
+    
+} move to the left
+*/
 
 .app__gallery-images_card img {
     width: 100%;
