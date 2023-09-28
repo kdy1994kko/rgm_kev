@@ -13,7 +13,7 @@ const SpecialMenu = () => (
  
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
-        <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+        <p className="app__specialMenu-menu_heading">Signature Feasts</p>
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
             <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
@@ -26,7 +26,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Cocktails</p>
+        <p className="app__specialMenu-menu_heading">Desserts</p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
@@ -36,9 +36,14 @@ const SpecialMenu = () => (
     </div>
  
     <div style={{ marginTop: 15 }}>
-    <a href="https://www.redlobster.com/menu/beverages" target="_blank" rel="noreferrer">
-      <button type="button" className="custom__button">View More</button>
-    </a>
+      <a href="https://www.redlobster.com/menu/signature-feasts" target="_blank" rel="noreferrer">
+        <button type="button" className="custom__button">View More Feasts</button>
+      </a>
+    </div>
+    <div style={{ marginTop: 15 }}>
+      <a href="https://www.redlobster.com/menu/desserts" target="_blank" rel="noreferrer">
+        <button type="button" className="custom__button">View More Desserts</button>
+      </a>
     </div>
   </div>
 );

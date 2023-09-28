@@ -1,6 +1,7 @@
 import images from './images';
 
-const wines = [
+// Signature Feasts
+const wines = [ 
   {
     title: 'Chapel Hill Shiraz',
     price: '$56',
@@ -28,6 +29,7 @@ const wines = [
   },
 ];
 
+// Desserts
 const cocktails = [
   {
     title: 'Aperol Sprtiz',
@@ -59,23 +61,23 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'J.D. Power Customer Satisfaction Award',
+    subtitle: 'recognized for our commitment to customer satisfaction and has received high rankings in the annual J.D. Power Restaurant Satisfaction Study.',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Golden Chain Award',
+    subtitle: 'recognized for our exceptional performance, innovation & impact on the restaurant industry.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Food Quality & Innovation Award',
+    subtitle: 'recognized for our dedication to providing high-quality seafood dishes and continuous innovation in its menu offerings.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Seafood Sustainability Award',
+    subtitle: 'recognized for our commitment to sustainable sourcing and responsible fishing practices. This award acknowledges the company efforts in protecting ocean resources.',
   },
 ];
 
