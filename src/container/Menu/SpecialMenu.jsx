@@ -34,7 +34,7 @@ const SpecialMenu = () => (
         </div>
       </div>
     </div>
- 
+  
     <div style={{ marginTop: 15 }}>
       <a href="https://www.redlobster.com/menu/signature-feasts" target="_blank" rel="noreferrer">
         <button type="button" className="custom__button">View More Feasts</button>
@@ -48,5 +48,6 @@ const SpecialMenu = () => (
   </div>
 );
 
+  
 export default SpecialMenu;
 
