@@ -30,7 +30,7 @@ const Footer = () => (
           </a>
         </div>
       <div className="app__footer-links_contact">
-        <h1 className="app__footer-headtext">Hire Me</h1>
+        <h1 className="app__footer-headtext">\(^o^)/ Hire Me</h1>
         <p className="p__opensans">16092 Crossed talons rd, Woodbridge, VA, 22193 USA</p>
         <p className="p__opensans">+1 281-896-2303</p>
       </div>
